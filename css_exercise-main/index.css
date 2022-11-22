@@ -1,0 +1,60 @@
+
+/* ESTILO PARA ETIQUETAS */
+
+body {
+    height: 850px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    background-color: #333;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px;
+    padding: 5px 10px;
+}
+
+li {
+    padding: 10px 10px;
+    margin: 0px 5px;
+    color: white;
+}
+
+li:hover{
+    background-color: rgb(65, 65, 65);
+}
+
+footer{
+    background-color: rgb(20, 20, 20);
+    color: white;
+    text-align: center;
+    font-size: small;
+}
+
+p {
+    margin: 0px 5px;
+}
+
+/* SELECTORES DE CLASES */
+
+.contenedor{
+    display: flex;
+    height: 100%;
+    margin: 10px 10px;
+    padding: 5px 50px;
+}
+
+.ecoinventos {
+    background-color: rgb(233, 233, 233);
+    width: 85%;
+    
+    display: block;
+}
+
+.noticias {
+    background-color: rgb(185, 210, 226);
+    width: 15%;
+    margin: 0px 5px;
+    display: block;
+}
