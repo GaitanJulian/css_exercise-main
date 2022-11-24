@@ -1,6 +1,11 @@
 
 /* ESTILO PARA ETIQUETAS */
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     height: 850px;
 }
@@ -29,11 +34,18 @@ footer{
     background-color: rgb(20, 20, 20);
     color: white;
     text-align: center;
+    vertical-align: middle;
     font-size: small;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5vh;
 }
 
 p {
     margin: 0px 5px;
+    text-align: justify;
 }
 
 /* SELECTORES DE CLASES */
@@ -43,6 +55,7 @@ p {
     height: 100%;
     margin: 10px 10px;
     padding: 5px 50px;
+    justify-content: center;
 }
 
 .ecoinventos {
